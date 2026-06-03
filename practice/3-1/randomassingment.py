@@ -1,0 +1,12 @@
+animal = input("What is your favorite animal? ")
+reason = input("Why is this your favorite animal? ")
+sound = input("What sound does the animal make? ")
+habitat = input("Where does the animal live? ")
+color = input("What color is the animal? ")
+
+print("\n--- Animal Summary ---")
+print("Your favorite animal is the " + animal + ".")
+print("You like it because " + reason + ".")
+print("It makes the sound '" + sound + "'.")
+print("It lives in " + habitat + ".")
+print("It is " + color + ".")
